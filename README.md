@@ -1,5 +1,28 @@
 # MIS — public portfolio showcase
 
+## Technical documentation (current audit)
+
+**Audit date:** 20 October 2026 · **Release classification:** not a verified complete production application.
+
+**Current GitHub state:** Documentation only; a separate operations dashboard is staged but not published to this repo.
+
+**Source/stack evidence:** Reviewed sources describe native SwiftUI/macOS + Node/Postgres and a distinct React/Vite/Express workspace; parity is unverified.
+
+**Cloudflare state:** The Pages project hosts an earlier documentation deployment. A site-specific Turnstile widget and a shared `AUTH_DB` D1 binding have been provisioned, but a working application deployment and admin sign-in have not been verified. Secret values must never be committed to this public repository.
+
+**Engineering documentation:**
+
+- **[Complete architecture, folder tree, languages, API contracts and backend connections](docs/TECHNICAL_REFERENCE.md)**
+- **[Features, actual implementation status and acceptance requirements](docs/FEATURE_AND_RELEASE_MATRIX.md)**
+- **[Authentication, Turnstile, security controls, deployment and operations runbook](docs/SECURITY_AND_OPERATIONS.md)**
+- [Source verification and NDA boundaries](docs/SOURCE_VERIFICATION.md)
+- [Existing platform/device support notes](docs/DEVICE_PREVIEW.md)
+
+All projects use the portfolio credit **[Developed and Designed by Jelvan®](https://portfolio.jelvan.pro)** for independently authored public work. This does not transfer ownership of third-party/client deliverables.
+
+---
+
+
 **Management Information System with native macOS employee workflow**  
 **Curated by Jelvan R. · Public documentation, not the original source repository.**
 
