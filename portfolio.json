@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "projectId": "mis",
+  "name": "MIS",
+  "publicShowcase": true,
+  "presentationOwner": "Jelvan R.",
+  "unaffiliatedPublication": true,
+  "documentationOnly": true,
+  "sourceCodeIncluded": false,
+  "productionEquivalent": false,
+  "ndaAdapted": true,
+  "lastReviewed": "2026-10-20",
+  "verifiedStatus": "Native macOS application source and documentation examined; web workspace is a separate, partially overlapping implementation and should not be presented as parity.",
+  "portfolio": {
+    "section": "Projects / Apps",
+    "portfolioHome": "https://portfolio.jelvan.pro",
+    "viewerModes": {
+      "macos": {
+        "displayType": "native-swiftui-source",
+        "enabledAsLiveIframe": false,
+        "approvedDemoUrl": null
+      },
+      "web": {
+        "displayType": "separate-web-workspace-not-parity",
+        "enabledAsLiveIframe": false,
+        "approvedDemoUrl": null
+      },
+      "ios": {
+        "displayType": "no-verified-native-client",
+        "enabledAsLiveIframe": false,
+        "approvedDemoUrl": null
+      },
+      "android": {
+        "displayType": "no-verified-native-client",
+        "enabledAsLiveIframe": false,
+        "approvedDemoUrl": null
+      }
+    },
+    "showUrlInViewer": false,
+    "allowOpenExternal": false,
+    "allowCopyUrl": false,
+    "previewFallback": "approved-local-screenshot-or-explanatory-placeholder"
+  }
+}
