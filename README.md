@@ -1,3 +1,19 @@
+## New login and protected dashboard source — 21 October 2026
+
+These are **new independent showcase screens**, not the original/client product or a verified production release. The images below are **illustrative vector previews**, not live-session screenshots.
+
+![MIS sign-in UI preview](assets/screenshots/login.svg)
+
+![MIS dashboard UI preview](assets/screenshots/dashboard.svg)
+
+**Implemented in this adaptation:** Protected operations dashboard, task search and statuses, scoped D1 persistence, user administration, server-verified Turnstile login, eight-hour hashed D1 sessions and admin account control.
+
+**Not yet implemented:** Employee directory, payroll, accounting, native macOS parity and real service-ticket workflows are not implemented.
+
+See [security and staging setup](docs/APP_SECURITY_AND_SETUP.md) and [D1 schema](schema.sql). Staging deployment and authenticated acceptance are required before production.
+
+---
+
 # MIS — public portfolio showcase
 
 ## Technical documentation (current audit)
